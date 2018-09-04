@@ -1,10 +1,8 @@
 
 commands:
-  log:
+  test:
     class: Extension\Google\Logging
-    method: logCommand
-    description: Send log message to google cloud
+    method: testCommand
+    description: Send test log message to google cloud
     arguments:
-      username:
-        description: message
     options:
