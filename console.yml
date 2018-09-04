@@ -1,0 +1,10 @@
+
+commands:
+  log:
+    class: Extension\Google\Logging
+    method: logCommand
+    description: Send log message to google cloud
+    arguments:
+      username:
+        description: message
+    options:

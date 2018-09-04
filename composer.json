@@ -1,5 +1,5 @@
 {
-    "name": "kehikko/google",
+    "name": "kehikko/extension/google",
     "description": "Google integration for kehikko framework",
     "license": "MIT",
     "authors": [
@@ -9,13 +9,14 @@
     }],
     "require":
     {
-        "php": ">=7.0.0"
+        "php": ">=7.0.0",
+        "google/cloud-logging": "^1.12"
     },
     "autoload":
     {
         "psr-4":
         {
-            "Google\\": ""
+            "Extension\\Google\\": ""
         }
     }
 }
